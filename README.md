@@ -4,6 +4,8 @@
   <a href="https://jimmykiedis.github.io/Duarda/">
     <img src="https://img.shields.io/badge/❤️%20Live%20Demo-FF4B4B?style=for-the-badge" alt="Live Demo">
   </a>
+  <br>
+  <em>Clique na imagem para acessar a demonstração.</em>
 </p>
 
 ---
