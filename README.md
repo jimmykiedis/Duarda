@@ -41,7 +41,7 @@ Este projeto foi feito com o coração ❤️ para ser um **presente interativo 
 1. Clone ou baixe este repositório.
 
 ```bash
-git clone https://github.com/jimmykiedis/EscapeButtonPrank.git
+git clone https://github.com/jimmykiedis/Duarda.git
 cd EscapeButtonPrank
 ```
 
