@@ -46,6 +46,52 @@ Este projeto foi feito com o coração ❤️ para ser um **presente interativo 
 
 ---
 
+## 🏗️ Estratégia de implementação
+
+A aplicação é estruturada principalmente com **HTML, CSS e JavaScript**, utilizando elementos convencionais do DOM para construir e controlar a experiência interativa.
+
+### Interface (HTML/CSS)
+
+Responsável pela estrutura e apresentação dos elementos da página, como:
+
+- Galeria de fotos em formato polaroid.
+- Exibição de imagens e mensagens.
+- Botões de navegação entre as fotos.
+- Controle de reprodução e pausa da música.
+- Animações e efeitos visuais.
+- Elementos decorativos, como corações flutuantes.
+
+### Lógica e interação (JavaScript)
+
+O JavaScript controla toda a dinâmica da aplicação, incluindo:
+
+- Carregamento das imagens a partir de um arquivo `JSON`.
+- Carregamento das mensagens a partir de um arquivo `TXT`.
+- Sincronização entre cada imagem e sua respectiva mensagem.
+- Navegação entre as fotos por botões e gestos de arrastar.
+- Interação por mouse e dispositivos touch.
+- Alternância entre a frente e o verso do polaroid.
+- Controle da reprodução da música de fundo.
+- Criação dinâmica de corações e efeitos visuais.
+- Atualização do conteúdo da página sem a necessidade de recarregá-la.
+
+Essa abordagem mantém a aplicação simples e organizada, separando o **conteúdo personalizável**, armazenado em arquivos externos, da **lógica responsável pela interação e apresentação da experiência**.
+
+---
+
+## 🛠️ Tecnologias
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla)
+* Fetch API
+* JSON
+* Web Audio API / HTMLAudioElement
+* DOM API
+* Touch Events API
+
+---
+
 ## 💡 Estrutura sugerida
 ```
 /
