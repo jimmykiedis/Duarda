@@ -15,16 +15,6 @@ Você pode mostrar fotos em estilo *polaroid*, adicionar uma música de fundo �
 
 ---
 
-## 🌟 Funcionalidades
-
-- Exibição de fotos em estilo polaroid
-- Efeito de "revelação" ao clicar na imagem
-- Navegação com botões ⬅️ ➡️ para avançar/voltar fotos
-- Possibilidade de adicionar uma música de fundo ❤️🎶
-- Totalmente personalizável com suas mensagens e lembranças
-
----
-
 ## 🎯 Objetivo
 
 Este projeto foi feito com o coração ❤️ para ser um **presente interativo e emocional**, ideal para:
@@ -36,7 +26,17 @@ Este projeto foi feito com o coração ❤️ para ser um **presente interativo 
 
 ---
 
-## 🛠 Como usar
+## ✨ Funcionalidades
+
+- Exibição de fotos em estilo polaroid
+- Efeito de "revelação" ao clicar na imagem
+- Navegação com botões ⬅️ ➡️ para avançar/voltar fotos
+- Possibilidade de adicionar uma música de fundo ❤️🎶
+- Totalmente personalizável com suas mensagens e lembranças
+
+---
+
+## 🛠 Como utilizar o repositório
 
 1. Clone ou baixe este repositório.
 2. Coloque suas imagens na pasta `contents/` (ex: `roll1.png`, `roll2.png`, etc.).
@@ -46,16 +46,17 @@ Este projeto foi feito com o coração ❤️ para ser um **presente interativo 
 
 ---
 
-## 💡 Exemplo de estrutura
-📁 seu-projeto/
+## 💡 Estrutura sugerida
+```
+/
 ├── index.html
 ├── style.css
 ├── script.js
 └── contents/
-├── roll1.png
-├── roll2.png
-├── music.mp3 (opcional)
-
+    ├── roll1.png
+    ├── roll2.png
+    └── music.mp3 (opcional)
+```
 
 ---
 
@@ -67,5 +68,5 @@ Este projeto foi feito com o coração ❤️ para ser um **presente interativo 
 
 ## 📄 Licença
 
-Sinta-se à vontade para usar, editar e compartilhar! Espalhe amor por onde for. 💞
+Sinta-se à vontade para usar, editar e compartilhar! Espalhe amor por onde for. 🫡
 
