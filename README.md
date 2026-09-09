@@ -1,7 +1,7 @@
 # 💌 Retrospectiva Polaroid – Declare seu Amor com Estilo!
 
 <p align="center">
-  <a href="https://jimmykiedis.github.io/EscapeButtonPrank/">
+  <a href="https://jimmykiedis.github.io/Duarda/">
     <img src="https://img.shields.io/badge/❤️%20Live%20Demo-FF4B4B?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
