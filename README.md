@@ -1,5 +1,13 @@
 # 💌 Retrospectiva Polaroid – Declare seu Amor com Estilo!
 
+<p align="center">
+  <a href="https://jimmykiedis.github.io/EscapeButtonPrank/">
+    <img src="https://img.shields.io/badge/❤️%20Live%20Demo-FF4B4B?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
+
+---
+
 Este é um mini-projeto em HTML, CSS e JavaScript criado para **declarar seu amor de um jeito especial**! 🥰  
 Você pode mostrar fotos em estilo *polaroid*, adicionar uma música de fundo 🎵 e incluir mensagens ou recordações que marcaram a história de vocês. Tudo em uma vibe nostálgica e única! 📸✨
 
