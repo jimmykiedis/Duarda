@@ -39,6 +39,12 @@ Este projeto foi feito com o coração ❤️ para ser um **presente interativo 
 ## 🛠 Como utilizar o repositório
 
 1. Clone ou baixe este repositório.
+
+```bash
+git clone https://github.com/jimmykiedis/EscapeButtonPrank.git
+cd EscapeButtonPrank
+```
+
 2. Coloque suas imagens na pasta `contents/` (ex: `roll1.png`, `roll2.png`, etc.).
 3. (Opcional) Adicione uma música de fundo no HTML usando `<audio>`.
 4. Personalize as mensagens ou adicione textos em balões, abaixo das fotos, etc.
