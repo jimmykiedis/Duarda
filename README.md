@@ -1,105 +1,138 @@
-# 💌 Retrospectiva Polaroid – Declare seu Amor com Estilo!
+# 💌 Polaroid Memories – Declare Your Love in Style!
 
 <p align="center">
   <a href="https://jimmykiedis.github.io/Duarda/">
     <img src="https://img.shields.io/badge/❤️%20Live%20Demo-FF4B4B?style=for-the-badge" alt="Live Demo">
   </a>
   <br>
-  <em>Clique na imagem para acessar a demonstração.</em>
+  <em>Click the image to access the live demo.</em>
 </p>
 
 ---
 
-Este é um mini-projeto em HTML, CSS e JavaScript criado para **declarar seu amor de um jeito especial**! 🥰  
-Você pode mostrar fotos em estilo *polaroid*, adicionar uma música de fundo 🎵 e incluir mensagens ou recordações que marcaram a história de vocês. Tudo em uma vibe nostálgica e única! 📸✨
+This is a mini-project built with **HTML, CSS, and JavaScript**, created to **express your love in a special way**! 🥰
+
+You can display photos in a *Polaroid-style* layout, add background music 🎵, and include messages or memories that marked your story together. Everything comes together in a nostalgic and unique experience! 📸✨
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Este projeto foi feito com o coração ❤️ para ser um **presente interativo e emocional**, ideal para:
+This project was created with love ❤️ as an **interactive and emotional gift**, making it ideal for:
 
-- Datas especiais: aniversário de namoro, casamento, dia dos namorados etc.
-- Pedidos de namoro ou casamento
-- Declarações espontâneas de amor
-- Presentes criativos para quem você ama
-
----
-
-## ✨ Funcionalidades
-
-- Exibição de fotos em estilo polaroid
-- Efeito de "revelação" ao clicar na imagem
-- Navegação com botões ⬅️ ➡️ para avançar/voltar fotos
-- Possibilidade de adicionar uma música de fundo ❤️🎶
-- Totalmente personalizável com suas mensagens e lembranças
+- Special occasions such as anniversaries, weddings, Valentine's Day, and more.
+- Dating or marriage proposals.
+- Spontaneous declarations of love.
+- Creative gifts for someone special.
 
 ---
 
-## 🛠 Como utilizar o repositório
+## ✨ Features
 
-1. Clone ou baixe este repositório.
+- 📸 Photo display in a Polaroid-style layout.
+- ✨ Image reveal effect when clicking the photo.
+- ⬅️ ➡️ Navigation buttons to move between photos.
+- 🎵 Optional background music.
+- 💌 Fully customizable messages and memories.
+- ❤️ Decorative animations and visual effects.
+
+---
+
+## 🛠 How to Use the Repository
+
+### 📥 1. Clone the Repository
+
+Clone or download the repository and open the project folder in the terminal.
 
 ```bash
 git clone https://github.com/jimmykiedis/Duarda.git
-cd EscapeButtonPrank
+cd Duarda
 ```
 
-2. Coloque suas imagens na pasta `contents/` (ex: `roll1.png`, `roll2.png`, etc.).
-3. (Opcional) Adicione uma música de fundo no HTML usando `<audio>`.
-4. Personalize as mensagens ou adicione textos em balões, abaixo das fotos, etc.
-5. Abra o `index.html` no navegador e curta a magia. ✨
+### 🖼️ 2. Add Your Images
+
+Place your images inside the `contents/` folder.
+
+For example:
+
+```text
+contents/
+├── roll1.png
+├── roll2.png
+└── roll3.png
+```
+
+### 🎵 3. Add Background Music
+
+Optionally, add a background song to the HTML using the `<audio>` element.
+
+```html
+<audio controls>
+  <source src="contents/music.mp3" type="audio/mpeg">
+</audio>
+```
+
+### ✏️ 4. Customize the Content
+
+Customize the messages, memories, images, and visual elements according to your needs.
+
+You can also add text bubbles, captions, messages below the photos, and other personalized elements.
+
+### ▶️ 5. Run the Project
+
+Open `index.html` in your browser and enjoy the experience. ✨
 
 ---
 
-## 🏗️ Estratégia de implementação
+## 🏗️ Implementation Strategy
 
-A aplicação é estruturada principalmente com **HTML, CSS e JavaScript**, utilizando elementos convencionais do DOM para construir e controlar a experiência interativa.
+The application is mainly structured with **HTML, CSS, and JavaScript**, using conventional DOM elements to build and control the interactive experience.
 
 ### Interface (HTML/CSS)
 
-Responsável pela estrutura e apresentação dos elementos da página, como:
+Responsible for the structure and presentation of the page elements, including:
 
-- Galeria de fotos em formato polaroid.
-- Exibição de imagens e mensagens.
-- Botões de navegação entre as fotos.
-- Controle de reprodução e pausa da música.
-- Animações e efeitos visuais.
-- Elementos decorativos, como corações flutuantes.
+- Polaroid-style photo gallery.
+- Image and message display.
+- Navigation buttons between photos.
+- Music playback and pause controls.
+- Animations and visual effects.
+- Decorative elements such as floating hearts.
 
-### Lógica e interação (JavaScript)
+### Logic and Interaction (JavaScript)
 
-O JavaScript controla toda a dinâmica da aplicação, incluindo:
+JavaScript controls the application's dynamic behavior, including:
 
-- Carregamento das imagens a partir de um arquivo `JSON`.
-- Carregamento das mensagens a partir de um arquivo `TXT`.
-- Sincronização entre cada imagem e sua respectiva mensagem.
-- Navegação entre as fotos por botões e gestos de arrastar.
-- Interação por mouse e dispositivos touch.
-- Alternância entre a frente e o verso do polaroid.
-- Controle da reprodução da música de fundo.
-- Criação dinâmica de corações e efeitos visuais.
-- Atualização do conteúdo da página sem a necessidade de recarregá-la.
+- Loading images from a `JSON` file.
+- Loading messages from a `TXT` file.
+- Synchronizing each image with its corresponding message.
+- Navigating between photos using buttons and drag gestures.
+- Supporting mouse and touch interactions.
+- Switching between the front and back of the Polaroid.
+- Controlling background music playback.
+- Dynamically creating hearts and visual effects.
+- Updating page content without requiring a page reload.
 
-Essa abordagem mantém a aplicação simples e organizada, separando o **conteúdo personalizável**, armazenado em arquivos externos, da **lógica responsável pela interação e apresentação da experiência**.
-
----
-
-## 🛠️ Tecnologias
-
-* HTML5
-* CSS3
-* JavaScript (Vanilla)
-* Fetch API
-* JSON
-* Web Audio API / HTMLAudioElement
-* DOM API
-* Touch Events API
+This approach keeps the application simple and organized by separating the **customizable content**, stored in external files, from the **logic responsible for interaction and presentation**.
 
 ---
 
-## 💡 Estrutura sugerida
-```
+## 🛠️ Technologies
+
+- **HTML5** — Page structure and interface elements.
+- **CSS3** — Styling, layout, animations, and visual effects for the Polaroid, hearts, and interactions.
+- **JavaScript (Vanilla JS)** — Application logic, navigation, gestures, content loading, and audio control.
+- **Fetch API** — Dynamic loading of images and messages from external files.
+- **JSON** — Storage and organization of the image list.
+- **HTMLAudioElement** — Background music playback and control.
+- **DOM API** — Dynamic manipulation of HTML elements and creation of decorative elements.
+- **Touch Events API** — Touch interaction support for mobile devices.
+
+---
+
+## 💡 Suggested Structure
+
+```text
 /
 ├── index.html
 ├── style.css
@@ -107,18 +140,17 @@ Essa abordagem mantém a aplicação simples e organizada, separando o **conteú
 └── contents/
     ├── roll1.png
     ├── roll2.png
-    └── music.mp3 (opcional)
+    └── music.mp3
 ```
 
 ---
 
-## ❤️ Dica especial
+## ❤️ Special Tip
 
-> Se o amor fosse código, esse projeto seria um commit inesquecível no repositório do coração. 💾💘
+> If love were code, this project would be an unforgettable commit in the repository of the heart. 💾💘
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Sinta-se à vontade para usar, editar e compartilhar! Espalhe amor por onde for. 🫡
-
+Feel free to use, edit, and share! Spread love wherever you go. 🫡
